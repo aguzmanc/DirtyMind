@@ -114,13 +114,13 @@ function prototypeMeme_update(diff)
 function prototypeMeme_drawScreenInfo(ctx)
 {
 	ctx.save();
-	ctx.translate(0,this.pos.y);
+	ctx.translate(0,this.pos.y + this.height);
 	ctx.scale(1.0,-1.0);
 
 	ctx.drawImage(
 		this.imgSprite,
 		0, 0,
-		this.width, -this.height);
+		this.width, this.height);
 
 	ctx.restore();
 }

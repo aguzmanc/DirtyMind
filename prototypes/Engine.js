@@ -1,5 +1,5 @@
 var SINGLETON_ENGINE = null;
-var FRAME_FREQUENCY = 33; // in milliseconds
+var FRAME_FREQUENCY = 13; // in milliseconds
 var CANVAS_WIDTH = 600;
 var CANVAS_HEIGHT = 600;
 // ---------------------= =---------------------
